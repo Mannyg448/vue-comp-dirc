@@ -9,7 +9,7 @@ import SettingPage from '@/components/SettingPage.vue'
 import NotFound from '@/components/NotFound.vue'
 
 const routes = [
-  { path: '/', name: 'Home', component: MainPage },
+  { path: '/vue-comp-dirc', name: 'Home', component: MainPage },
   { path: '/login', name: 'Login', component: LoginPage },
   { path: '/settings', name: 'Setting', component: SettingPage, meta: { requiresAuth: true } },
   { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
